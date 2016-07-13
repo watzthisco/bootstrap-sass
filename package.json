@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-sass",
+  "version": "1.0.0",
+  "description": "Lab files for the course. Written by Chris Minnick.",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass test.scss test.css",
+    "start": "npm run build && http-server -a localhost -p 8000 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watzthisco/bootstrap-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/watzthisco/bootstrap-sass/issues"
+  },
+  "homepage": "https://github.com/watzthisco/bootstrap-sass#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
