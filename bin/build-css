@@ -1,0 +1,1 @@
+node-sass --output-style compressed --include-path scss scss/main.scss public/css/main.css

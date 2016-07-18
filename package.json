@@ -4,8 +4,10 @@
   "description": "Lab files for the course. Written by Chris Minnick.",
   "main": "index.js",
   "scripts": {
-    "build": "sass test.scss test.css",
-    "test": "npm run build && http-server -a localhost -p 8000 -o"
+    "build-test": "sass test.scss test.css",
+    "test": "npm run build-test && http-server -a localhost -p 8000 -o",
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,9 @@
   },
   "homepage": "https://github.com/watzthisco/bootstrap-sass-intro#readme",
   "devDependencies": {
-    "http-server": "^0.9.0"
+    "http-server": "^0.9.0",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.9.2"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.6"

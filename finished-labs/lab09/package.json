@@ -1,0 +1,17 @@
+{
+  "name": "finished-labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.9.2"
+  }
+}
