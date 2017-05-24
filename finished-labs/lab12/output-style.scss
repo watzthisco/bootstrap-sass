@@ -1,0 +1,19 @@
+$text-color: green;
+$link-color: orange;
+$hover-color: red;
+#main {
+  color: $text-color;
+  a {
+    font-weight: bold;
+    &:hover { color: $hover-color; }
+  }
+}
+p {
+  color: $text-color;
+  a {
+    color: $link-color;
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
